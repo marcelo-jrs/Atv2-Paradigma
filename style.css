@@ -1,0 +1,38 @@
+div.first {
+    display: block;
+    background-color: yellow;
+    height: 8em;
+    width: 8em;
+    text-align: center;
+  }
+  
+  div.first:hover {
+    background-color: aqua;
+    cursor: pointer;
+  }
+  
+  p.second {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+  }
+  
+  .second input[type='checkbox'] {
+    transform: translateY(15%);
+    cursor: pointer;
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  span {
+    font-size: 35px;
+    margin-left:  100px;
+  }
